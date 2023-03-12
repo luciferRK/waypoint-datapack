@@ -1,0 +1,34 @@
+[
+    {
+        "condition": "minecraft:location_check",
+        "offsetY": 2,
+        "predicate": {
+            "block": {
+                "blocks": [
+                    "minecraft:polished_andesite_slab"
+                ]
+            }
+        }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetY": 1,
+        "predicate": {
+            "block": {
+                "blocks": [
+                    "minecraft:barrel"
+                ]
+            }
+        }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "predicate": {
+            "block": {
+                "blocks": [
+                    "minecraft:andesite_wall"
+                ]
+            }
+        }
+    }
+]

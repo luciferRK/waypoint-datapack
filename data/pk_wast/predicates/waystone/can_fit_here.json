@@ -1,0 +1,28 @@
+[
+    {
+        "condition": "minecraft:location_check",
+        "offsetY": 2,
+        "predicate": {
+            "block": {
+                "tag": "pk_wast:placement_check/replaceable"
+            }
+        }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "offsetY": 1,
+        "predicate": {
+            "block": {
+                "tag": "pk_wast:placement_check/replaceable"
+            }
+        }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "predicate": {
+            "block": {
+                "tag": "pk_wast:placement_check/replaceable"
+            }
+        }
+    }
+]

@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=pk_wast_in_use] at @s run function pk_wast:waystone/gui/update/update_current_waystone_from_marker

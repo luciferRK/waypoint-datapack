@@ -1,0 +1,2 @@
+execute store result score @s PKWASTClickedWaypoint run clear @s #pk_wast:all{pkWastGUI:1b} 0
+execute if entity @s[scores={PKWASTClickedWaypoint=1..}] run function pk_wast:events/clicked_waypoint/trigger

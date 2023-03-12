@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": {
+                    "block": {
+                        "blocks": [
+                            "minecraft:barrel"
+                        ],
+                        "nbt": "{CustomName:'{\"text\":\"Waystones list§r\"}'}"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "pk_wast:events/clicked_waystone/trigger"
+    }
+}

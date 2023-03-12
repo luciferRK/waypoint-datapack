@@ -1,0 +1,21 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+        {
+            "condition": "minecraft:reference",
+            "name": "pk_wast:waystone/hopper_check_north"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "pk_wast:waystone/hopper_check_east"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "pk_wast:waystone/hopper_check_south"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "pk_wast:waystone/hopper_check_west"
+        }
+    ]
+}

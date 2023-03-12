@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "item": {
+                    "nbt": "{pkWaystone:1b}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "pk_wast:events/placed_waystone/trigger"
+    }
+}

@@ -1,0 +1,2 @@
+tellraw @p[tag=pk_wast_current_player] {"text":"The maximum amount of Waystones has been reached! You may remove one before trying to place another.","color":"red"}
+function pk_wast:events/placed_waystone/cancel_placement

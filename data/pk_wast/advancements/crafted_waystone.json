@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "pk_wast:waystone"
+            }
+        }
+    },
+    "rewards": {
+        "function": "pk_wast:events/crafted_waystone/trigger"
+    }
+}

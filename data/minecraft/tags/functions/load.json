@@ -1,0 +1,7 @@
+{
+    "values": [
+        "pk_wast:iris/setup/load",
+        "pk_wast:random/load",
+        "pk_wast:base/load"
+    ]
+}

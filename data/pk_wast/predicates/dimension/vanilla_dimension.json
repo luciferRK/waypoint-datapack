@@ -1,0 +1,17 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+        {
+            "condition": "minecraft:reference",
+            "name": "pk_wast:dimension/overworld"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "pk_wast:dimension/the_nether"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "pk_wast:dimension/the_end"
+        }
+    ]
+}
